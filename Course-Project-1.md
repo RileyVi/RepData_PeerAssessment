@@ -32,7 +32,7 @@ ggplot(total_steps_per_day, aes(x = total_steps)) +
         theme_minimal()
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](RepData_PeerAssessment/unnamed-chunk-3-1.png)
   
 3: Calculate the mean and median of the total daily number of steps
 
@@ -75,7 +75,7 @@ plot(average_steps_interval$interval,
      main = "Average Daily Activity Pattern")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](RepData_PeerAssessment/unnamed-chunk-5-1.png)
 
 The 5-minute interval that, on average across all the days in the dataset, contains the maximum number of steps is the one with roughly 850.  
 
@@ -158,7 +158,7 @@ ggplot(total_steps_imputed, aes(x = total_steps)) +
         theme_minimal()
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](RepData_PeerAssessment/unnamed-chunk-9-1.png)
 
 The mean daily total steps for the imputed data is 10766.19. The median for the data is 10766.19. 
 These values do differ from the non-imputed estimates. Imputing the data inflates the estimates of total daily number of steps.
@@ -209,4 +209,5 @@ ggplot(interval_weekly_avg, aes(x = interval, y = mean_steps)) +
         theme_minimal()
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
+![plot of chunk unnamed-chunk-11](RepData_PeerAssessment/unnamed-chunk-11-1.png)
+
